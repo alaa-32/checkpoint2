@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Navbar Section -->
+     <header> 
+        <h1>My Portfolio</h1>
+        <!-- navbar: home, about, work, resume, contact -->
+        <nav>
+          <a href="#about">About</a>|
+          <a href="#work">work</a>|
+          <a href="#resume">resume</a>|
+          <a href="#contact">Contact</a>|
+        </nav>
+      </header>
+         <!-- about Section -->
+         <section id="about">
+         <section class="about">
+            <div class="meimg">
+                <img src="me.jpg" alt="">
+            </div>
+            <div class="aboutcontent">
+                <h1>Hi, It's <span>Alaa</span></h1>
+                <h3 class="1text">I'm a <span></span></h3>
+                <p>Computer Science student at USTHB I'm fueled by a fascination with how technology shapes our world aim to design and develop websites that not only serve functional needs but also deliver memorable experiences to users around the globe.In my first year,i've dived headfirst into programming languages crucial to my interest such C and curently I'm learning weeb developement,Outside of my academic life, I have a passion for art and learning foreign languages, such as Chinese.</p>
+            </section>
+            <!-- work section  -->
+         <section id="work">
+            <div class="works">
+                <h1>My work <span class="arrow">→</span></h1>
+                <div class="workgrid">
+                    <div class="work">CSS</div>
+                    <div class="dots">●●●●●●○○○○</div>
+                    <div class="work">logo design</div>
+                    <div class="dots">●●●●●○○○○○</div>
+        
+                    <div class="work">painting</div>
+                    <div class="dots">●●●●●●●○○○</div>
+                    <div class="work">C</div>
+                    <div class="dots">●●●●●●○○○○</div>
+        
+                    <div class="work">Javascript</div>
+                    <div class="dots">●●●○○○○○○○</div>
+                    <div class="work">editing</div>
+                    <div class="dots">●●●●●●●○○○</div>
+                </div>
+            </div>
+         </section>
+        
+           <!-- contact section  -->  
+           <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="/submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
