@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
+/* configuration   */
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +34,7 @@ header {
   align-items: center;
   z-index: 100;
 }
+/* nav   */
 nav a {
   font-size: 1.8rem;
   color: white;
@@ -82,7 +84,7 @@ section {
   min-height: 100vh;
   padding: 5rem 9% 5rem;
 }
-
+/*  about */
 .about {
   display: flex;
   justify-content: center;
@@ -110,7 +112,7 @@ span {
 .aboutcontent p {
   font-size: 1.3rem;
 }
-
+/*  image */
 .meimg {
   border-radius: 50%;
 }
@@ -128,6 +130,7 @@ span {
   font-size: 1.8rem;
   font-weight: 500;
 }
+/*  work */
 work {
   margin: 0;
   padding: 0;
@@ -166,7 +169,7 @@ h1 {
   font-size: 1.8em;
   color: #f0f;
 }
-
+/* contact  */
 #contact {
   text-align: center;
   max-width: 600px;
